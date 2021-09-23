@@ -1,0 +1,12 @@
+[programs.localnet]
+solana_dummy = "Cgt34BPwrxsLp6AExpDRzbbTZS9wmbTuNUvWV1fqWNFi"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "localnet"
+wallet = "/Users/jayce/.config/solana/id.json"
+
+[scripts]
+test = "mocha -t 1000000 tests/"
